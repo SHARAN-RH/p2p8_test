@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: flask-container
-          image: p2p8
+          image: p2p8:123
           imagePullPolicy: Never
           ports:
             - containerPort: 5001
